@@ -30,7 +30,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36255995-1']);
+  _gaq.push(['_setAccount', 'UA-35809547-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -88,12 +88,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-	
+	<div id="phone-nbr">
+		Free Consultation: <span style="color:#fff;">843-225-7240</span>
+	</div>
 	<header id="branding" role="banner">
 		<div class="header-cont">
-			<div id="phone-nbr">
-				Free Consultation: <span style="color:#fff;">843-225-7240</span>
-			</div>
 			<div id="gradient"></div>
 			<a id="mayer-logo" href="/">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/mayerlaw/logo.png" />
