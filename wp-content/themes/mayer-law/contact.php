@@ -17,12 +17,13 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 			
-				<div class="contact-box <?php echo str_replace(' ','-',get_the_title()); ?>">
+				<div class="single-service-box <?php echo str_replace(' ','-',get_the_title()); ?>">
+					<?php if ( has_post_thumbnail() ) { ?>
 					<div class="featured-image">		
 						<?php the_post_thumbnail(); ?>
-						<div id="map_canvas"></div>	
 					</div>
-					<div class="main-content">
+					<?php } ?>
+					<div class="col-right">
 						<a name="<?php echo str_replace(' ','-',get_the_title()); ?>"></a>
 						<div class="title-cont">
 							<h1><?php the_title(); ?></h1>			
@@ -37,7 +38,14 @@ get_header(); ?>
 				</div>
 
 		<?php endwhile; // end of the loop. ?>
-		
+		<div id="extra-cont">
+			<div class="featured-image">		 
+				<div id="map_canvas"></div>	
+			</div>
+			<div class="video-cont">
+				<iframe width="352" height="242" src="http://www.youtube.com/embed/AyPPoOt8vP0?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
 
 
 	</div><!-- #content -->
@@ -56,9 +64,9 @@ get_header(); ?>
 		initialize();
 	});
 
-	$('.free-consultations #map_canvas').remove();
-	$('.contact-us-today .featured-image').remove();
-	$('.contact-us-today').css('float', 'right');
+	//$('.free-consultations #map_canvas').remove();
+	//$('.contact-us-today .featured-image').remove();
+	//$('.contact-us-today').css('float', 'right');
 	
 	function initialize() {
 	  // var image = src="/system/images/map-pin.png";

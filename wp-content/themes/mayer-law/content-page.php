@@ -8,13 +8,18 @@
  */
 ?>
 
-<div class="services-box" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="single-service-box" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php	if ( has_post_thumbnail() ) { ?>
-	<div class="featured-image">		 
-		<?php	the_post_thumbnail(); ?>
+	<div class="col-left">
+		<div class="featured-image">		 
+			<?php the_post_thumbnail(); ?>
 		
+		</div>
+		<div class="video-cont">
+			<iframe width="352" height="242" src="http://www.youtube.com/embed/CbmCiZtV4bw?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
-	<div class="main-content">
+	<div class="col-right">
 		<div class="title-cont">
 			<h1><?php the_title(); ?></h1>			
 		</div>

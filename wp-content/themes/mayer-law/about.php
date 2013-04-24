@@ -17,11 +17,17 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 				
-					<div class="about-box">
-						<div class="featured-image">		
-							<?php the_post_thumbnail(); ?>		
+					<div class="single-service-box">
+						<div class="col-left">
+							<div class="featured-image">		 
+								<?php the_post_thumbnail(); ?>
+
+							</div>
+							<div class="video-cont">
+								<iframe src="http://www.youtube.com/embed/CGYLiek7FH4?rel=0" frameborder="0" width="352" height="242"></iframe>
+							</div>
 						</div>
-						<div class="main-content">
+						<div class="col-right">
 							<div class="title-cont">
 								<h1><?php the_title(); ?></h1>			
 							</div>

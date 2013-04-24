@@ -9,6 +9,7 @@ $(document).ready(function() {
 	setInputFieldFunctions();
 	hoverZoom();
 	footerHeight();	
+	$('.single-service-box .video-cont').eq(1).remove();
 	
 });
 
