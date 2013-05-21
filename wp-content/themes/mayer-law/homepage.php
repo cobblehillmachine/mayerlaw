@@ -10,7 +10,7 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/mayerlaw/home.jpg" />
 					<div class="info-free-consult">
 						<div class="info-title">free consultations</div>
-						<div class="text">The law firm focuses on personal injuries, civil actions,<br/> and serious criminal charges, in addition to the general practice of law.<br/><a href="/contact">Contact Us</a> for a free consultation. Your information is 100% confidential and private.</div>
+						<div class="text">The law firm focuses on personal injuries, civil actions,<br/> and serious criminal charges, in addition to the general practice of law.<br/><a href="/contact">Contact Us</a> for a free consultation*. Your information is 100% confidential and private.</div>
 					</div>
 				</div>
 				<div id="home-boxes-cont">

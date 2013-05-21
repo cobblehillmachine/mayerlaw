@@ -18,7 +18,8 @@
 	<div class="footer-cont">
 		<div id="footer-info">
 			Mayer Law Practice<br/>
-			<span id="address">2000 Sam Rittenberg Blvd, Suite 2011 &bull; Charleston, SC 29407</span>
+			<a id="address" href="http://goo.gl/maps/clzAE" target="_blank">2000 Sam Rittenberg Blvd, Suite 2011 &bull; Charleston, SC 29407</a>
+			
 		</div>
 		<div id="footer-links-cont">
 			<a class="footer-links" href="/">home</a><span>/</span>
@@ -27,6 +28,7 @@
 			<a class="footer-links" href="/news">news</a><span>/</span>
 			<a class="footer-links" href="/contact">contact</a>
 		</div>
+		<div class="consultation">*Immigration consultations are not free.</div>
 		<div class="credit">
 			<a href="http://www.cobblehilldigital.com" target="_blank">Site by Cobble Hill</a>
 		</div>

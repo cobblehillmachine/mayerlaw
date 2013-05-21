@@ -106,7 +106,7 @@ var google_remarketing_only = true;
 
 <body <?php body_class(); ?>>
 	<div id="phone-nbr">
-		Free Consultation: <span style="color:#fff;">843-225-7240</span>
+		Free Consultation: <span style="color:#fff;">843-225-7240*</span>
 	</div>
 	<header id="branding" role="banner">
 		<div class="header-cont">

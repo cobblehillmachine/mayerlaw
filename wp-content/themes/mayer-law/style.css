@@ -470,6 +470,8 @@ text-align:center;
 	margin-top:15px;
 }
 
+footer .consultation {position:absolute; top:120px; font:normal 12px "proxima-nova";}
+
 .contact-us-today .post-text p {position:absolute; text-align:center;}
 
 #free-consult-box .text {width:210px;}
@@ -2881,7 +2883,7 @@ p.comment-form-comment {
 	line-height:20px;
 	margin-top:50px;
 }
-#footer-info #address {font-size:14px; font-weight:400;}
+#footer-info #address {font-size:14px; font-weight:400; color:#fff;}
 #footer-links-cont {position:relative; float:right; margin-top:68px;}
 #footer-links-cont .footer-links {color:#fff; 
 	text-transform:uppercase; 
